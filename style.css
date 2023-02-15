@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(97, 95, 95);
+    display: flex;
+    row-gap: 20px;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+  
+    /* align-items: center; */
+}
+
+.card{
+    border-radius: 5px;
+    box-shadow: 5px 5px 2px  rgb(85, 82, 82);
+    height: 350px;
+    width: 250px;
+   
+}
+.flag{
+    height:200px;
+    width: 250px;
+    object-fit: cover;
+    /* justify-content: center;
+    place-content: center;
+    text-align: center; */
+    /* padding: 2rem; */
+}
+.card-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(24, 20, 20);
+    color:rgb(250, 248, 248);
+    /* height: 10rem; */
+    line-height: normal;
+}
+a{
+
+    margin-bottom: 10px;
+}
